@@ -23,6 +23,6 @@
         "white-october/pagerfanta-bundle" : "*"
     },
     "autoload": {
-        "psr-4": { "Herzult\\ForumBundle": "" }
+        "psr-4": { "Herzult\\ForumBundle\\": "" }
     }
 }
