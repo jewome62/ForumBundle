@@ -1,9 +1,9 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Entity;
+namespace Herzult\ForumBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
-use Herzult\Bundle\ForumBundle\Model\RepositoryInterface;
+use Herzult\ForumBundle\Model\RepositoryInterface;
 
 abstract class ObjectRepository extends EntityRepository implements RepositoryInterface
 {

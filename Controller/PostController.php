@@ -1,11 +1,11 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Controller;
+namespace Herzult\ForumBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Herzult\Bundle\ForumBundle\Model\Topic;
-use Herzult\Bundle\ForumBundle\Model\Post;
+use Herzult\ForumBundle\Model\Topic;
+use Herzult\ForumBundle\Model\Post;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class PostController extends Controller

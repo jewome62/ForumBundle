@@ -1,12 +1,12 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Templating\Helper;
+namespace Herzult\ForumBundle\Templating\Helper;
 
 use Symfony\Component\Routing\RouterInterface;
 use Symfony\Component\Templating\Helper\Helper;
-use Herzult\Bundle\ForumBundle\Model\Category;
-use Herzult\Bundle\ForumBundle\Model\Topic;
-use Herzult\Bundle\ForumBundle\Model\Post;
+use Herzult\ForumBundle\Model\Category;
+use Herzult\ForumBundle\Model\Topic;
+use Herzult\ForumBundle\Model\Post;
 
 class ForumHelper extends Helper
 {

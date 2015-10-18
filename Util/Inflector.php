@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Util;
+namespace Herzult\ForumBundle\Util;
 
 class Inflector
 {

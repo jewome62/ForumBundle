@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Model;
+namespace Herzult\ForumBundle\Model;
 
 use DateTime;
 use Symfony\Component\Validator\Constraints as Assert;

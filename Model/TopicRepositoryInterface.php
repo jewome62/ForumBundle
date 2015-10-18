@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Model;
+namespace Herzult\ForumBundle\Model;
 
 interface TopicRepositoryInterface extends RepositoryInterface
 {

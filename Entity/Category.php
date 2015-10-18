@@ -1,8 +1,8 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Entity;
+namespace Herzult\ForumBundle\Entity;
 
-use Herzult\Bundle\ForumBundle\Model\Category as BaseCategory;
+use Herzult\ForumBundle\Model\Category as BaseCategory;
 
 abstract class Category extends BaseCategory
 {

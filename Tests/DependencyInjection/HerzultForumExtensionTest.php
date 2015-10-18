@@ -1,9 +1,9 @@
 <?php
 
-namespace Herzult\Bundle\ForumBundle\Tests\DependencyInjection;
+namespace Herzult\ForumBundle\Tests\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Herzult\Bundle\ForumBundle\DependencyInjection\HerzultForumExtension;
+use Herzult\ForumBundle\DependencyInjection\HerzultForumExtension;
 
 class HerzultForumExtensionTest extends \PHPUnit_Framework_TestCase
 {
@@ -33,47 +33,47 @@ class HerzultForumExtensionTest extends \PHPUnit_Framework_TestCase
         return array(
             array(
                 'herzult_forum.form.new_topic.class',
-                'Herzult\Bundle\ForumBundle\Form\NewTopicFormType'
+                'Herzult\ForumBundle\Form\NewTopicFormType'
             ),
             array(
                 'herzult_forum.form.post.class',
-                'Herzult\Bundle\ForumBundle\Form\PostFormType'
+                'Herzult\ForumBundle\Form\PostFormType'
             ),
             array(
                 'herzult_forum.form.first_post.class',
-                'Herzult\Bundle\ForumBundle\Form\PostFormType'
+                'Herzult\ForumBundle\Form\PostFormType'
             ),
             array(
                 'herzult_forum.form.search.class',
-                'Herzult\Bundle\ForumBundle\Form\SearchFormType'
+                'Herzult\ForumBundle\Form\SearchFormType'
             ),
             array(
                 'herzult_forum.controller.forum.class',
-                'Herzult\Bundle\ForumBundle\Controller\ForumController'
+                'Herzult\ForumBundle\Controller\ForumController'
             ),
             array(
                 'herzult_forum.controller.category.class',
-                'Herzult\Bundle\ForumBundle\Controller\CategoryController'
+                'Herzult\ForumBundle\Controller\CategoryController'
             ),
             array(
                 'herzult_forum.controller.topic.class',
-                'Herzult\Bundle\ForumBundle\Controller\TopicController'
+                'Herzult\ForumBundle\Controller\TopicController'
             ),
             array(
                 'herzult_forum.controller.post.class',
-                'Herzult\Bundle\ForumBundle\Controller\PostController'
+                'Herzult\ForumBundle\Controller\PostController'
             ),
             array(
                 'herzult_forum.blamer.topic.class',
-                'Herzult\Bundle\ForumBundle\Blamer\TopicBlamer'
+                'Herzult\ForumBundle\Blamer\TopicBlamer'
             ),
             array(
                 'herzult_forum.blamer.post.class',
-                'Herzult\Bundle\ForumBundle\Blamer\PostBlamer'
+                'Herzult\ForumBundle\Blamer\PostBlamer'
             ),
             array(
                 'herzult_forum.twig.extension.class',
-                'Herzult\Bundle\ForumBundle\Twig\ForumExtension'
+                'Herzult\ForumBundle\Twig\ForumExtension'
             ),
             array(
                 'herzult_forum.templating.engine',
