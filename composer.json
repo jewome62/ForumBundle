@@ -10,7 +10,7 @@
             "name": "Desjardins Jérôme",
             "email": "jewome62@gmail.com",
             "homepage": "https://github.com/jewome62"
-        }
+        },
         {
             "name": "Antoine Hérault",
             "email": "antoine.herault@gmail.com",
@@ -23,6 +23,6 @@
         "white-october/pagerfanta-bundle" : "*"
     },
     "autoload": {
-        "psr-4": { "Jewome62\\ForumBundle": "" }
+        "psr-4": { "Herzult\\ForumBundle": "" }
     }
 }
