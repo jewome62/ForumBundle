@@ -20,11 +20,11 @@ _mapped superclasses_, you must map it on your entities.
 
     namespace Acme\ForumBundle\Entity;
 
-    use Herzult\ForumBundle\Entity\Category as BaseCategory
+    use Herzult\Bundle\ForumBundle\Entity\Category as BaseCategory
     use Doctrine\ORM\Mapping as ORM;
 
     /**
-     * @ORM\Entity(repositoryClass="Herzult\ForumBundle\Entity\CategoryRepository")
+     * @ORM\Entity(repositoryClass="Herzult\Bundle\ForumBundle\Entity\CategoryRepository")
      */
     class Category extends BaseCategory
     {
@@ -37,11 +37,11 @@ _mapped superclasses_, you must map it on your entities.
 
     namespace Acme\ForumBundle\Entity;
 
-    use Herzult\ForumBundle\Entity\Topic as BaseTopic;
+    use Herzult\Bundle\ForumBundle\Entity\Topic as BaseTopic;
     use Doctrine\ORM\Mapping as ORM;
 
     /**
-     * @ORM\Entity(repositoryClass="Herzult\ForumBundle\Entity\TopicRepository")
+     * @ORM\Entity(repositoryClass="Herzult\Bundle\ForumBundle\Entity\TopicRepository")
      */
     class Topic extends BaseTopic
     {
@@ -69,11 +69,11 @@ about it later.
 
     namespace Acme\ForumBundle\Entity;
 
-    use Herzult\ForumBundle\Entity\Post as BasePost;
+    use Herzult\Bundle\ForumBundle\Entity\Post as BasePost;
     use Doctrine\ORM\Mapping as ORM;
 
     /**
-     * @ORM\Entity(repositoryClass="Herzult\ForumBundle\Entity\PostRepository")
+     * @ORM\Entity(repositoryClass="Herzult\Bundle\ForumBundle\Entity\PostRepository")
      */
     class Post extends BasePost
     {

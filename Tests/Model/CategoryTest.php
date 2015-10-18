@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\ForumBundle\Model;
+namespace Herzult\Bundle\ForumBundle\Model;
 
 class CategoryTest extends \PHPUnit_Framework_TestCase
 {

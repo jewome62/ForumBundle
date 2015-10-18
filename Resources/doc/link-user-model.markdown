@@ -21,7 +21,7 @@ security. You can create your custom blamer extending it:
 
     namespace Acme\ForumBundle\Blamer;
 
-    use Herzult\ForumBundle\Blamer\AbstractSecurityBlamer;
+    use Herzult\Bundle\ForumBundle\Blamer\AbstractSecurityBlamer;
 
     class Blamer extends AbstractSecurityBlamer
     {

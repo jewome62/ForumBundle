@@ -1,8 +1,8 @@
 <?php
 
-namespace Herzult\ForumBundle\Document;
+namespace Herzult\Bundle\ForumBundle\Document;
 
-use Herzult\ForumBundle\Model\TopicRepositoryInterface;
+use Herzult\Bundle\ForumBundle\Model\TopicRepositoryInterface;
 use Pagerfanta\Pagerfanta;
 use Pagerfanta\Adapter\DoctrineODMMongoDBAdapter;
 

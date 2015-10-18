@@ -1,8 +1,8 @@
 <?php
 
-namespace Herzult\ForumBundle\Entity;
+namespace Herzult\Bundle\ForumBundle\Entity;
 
-use Herzult\ForumBundle\Model\Topic as BaseTopic;
+use Herzult\Bundle\ForumBundle\Model\Topic as BaseTopic;
 
 abstract class Topic extends BaseTopic
 {

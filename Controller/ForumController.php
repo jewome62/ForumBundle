@@ -1,10 +1,10 @@
 <?php
 
-namespace Herzult\ForumBundle\Controller;
+namespace Herzult\Bundle\ForumBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Herzult\ForumBundle\Form\SearchFormType;
-use Herzult\ForumBundle\Search\Search;
+use Herzult\Bundle\ForumBundle\Form\SearchFormType;
+use Herzult\Bundle\ForumBundle\Search\Search;
 
 class ForumController extends Controller
 {

@@ -6,9 +6,9 @@
         http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping.xsd">
 
     <mapped-superclass
-        name="Herzult\ForumBundle\Document\Topic"
+        name="Herzult\Bundle\ForumBundle\Document\Topic"
         collection="forum_topic"
-        repository-class="Herzult\ForumBundle\Document\TopicRepository">
+        repository-class="Herzult\Bundle\ForumBundle\Document\TopicRepository">
 
         <field name="id" fieldName="id" id="true" />
         <field name="subject" fieldName="subject" type="string" />

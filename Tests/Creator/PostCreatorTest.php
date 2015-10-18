@@ -1,16 +1,16 @@
 <?php
 
-namespace Herzult\ForumBundle\Creator;
+namespace Herzult\Bundle\ForumBundle\Creator;
 
 class PostCreatorTest extends \PHPUnit_Framework_TestCase
 {
     public function testUpdate()
     {
-        $post = $this->getMockBuilder('Herzult\ForumBundle\Model\Post')
+        $post = $this->getMockBuilder('Herzult\Bundle\ForumBundle\Model\Post')
             ->disableOriginalConstructor()
             ->getMock();
 
-        $category = $this->getMockBuilder('Herzult\ForumBundle\Model\Category')
+        $category = $this->getMockBuilder('Herzult\Bundle\ForumBundle\Model\Category')
             ->disableOriginalConstructor()
             ->getMock();
         $category->expects($this->once())
@@ -19,7 +19,7 @@ class PostCreatorTest extends \PHPUnit_Framework_TestCase
         $category->expects($this->once())
             ->method('incrementNumPosts');
 
-        $topic = $this->getMockBuilder('Herzult\ForumBundle\Model\Topic')
+        $topic = $this->getMockBuilder('Herzult\Bundle\ForumBundle\Model\Topic')
             ->disableOriginalConstructor()
             ->getMock();
         $topic->expects($this->once())

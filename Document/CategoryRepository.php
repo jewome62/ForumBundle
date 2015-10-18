@@ -1,8 +1,8 @@
 <?php
 
-namespace Herzult\ForumBundle\Document;
+namespace Herzult\Bundle\ForumBundle\Document;
 
-use Herzult\ForumBundle\Model\CategoryRepositoryInterface;
+use Herzult\Bundle\ForumBundle\Model\CategoryRepositoryInterface;
 
 class CategoryRepository extends ObjectRepository implements CategoryRepositoryInterface
 {

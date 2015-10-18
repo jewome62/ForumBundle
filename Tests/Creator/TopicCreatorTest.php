@@ -1,16 +1,16 @@
 <?php
 
-namespace Herzult\ForumBundle\Creator;
+namespace Herzult\Bundle\ForumBundle\Creator;
 
 class TopicCreatorTest extends \PHPUnit_Framework_TestCase
 {
     public function testUpdate()
     {
-        $topic = $this->getMockBuilder('Herzult\ForumBundle\Model\Topic')
+        $topic = $this->getMockBuilder('Herzult\Bundle\ForumBundle\Model\Topic')
             ->disableOriginalConstructor()
             ->getMock();
 
-        $category = $this->getMockBuilder('Herzult\ForumBundle\Model\Category')
+        $category = $this->getMockBuilder('Herzult\Bundle\ForumBundle\Model\Category')
             ->disableOriginalConstructor()
             ->getMock();
         $category->expects($this->once())

@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\ForumBundle;
+namespace Herzult\Bundle\ForumBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

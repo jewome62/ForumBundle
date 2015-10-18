@@ -1,9 +1,9 @@
 <?php
 
-namespace Herzult\ForumBundle\Document;
+namespace Herzult\Bundle\ForumBundle\Document;
 
 use Doctrine\ODM\MongoDB\DocumentRepository;
-use Herzult\ForumBundle\Model\RepositoryInterface;
+use Herzult\Bundle\ForumBundle\Model\RepositoryInterface;
 
 abstract class ObjectRepository extends DocumentRepository implements RepositoryInterface
 {

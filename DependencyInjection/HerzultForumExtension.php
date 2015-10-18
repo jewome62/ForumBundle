@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\ForumBundle\DependencyInjection;
+namespace Herzult\Bundle\ForumBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

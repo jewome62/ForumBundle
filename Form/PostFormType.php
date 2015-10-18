@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\ForumBundle\Form;
+namespace Herzult\Bundle\ForumBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;

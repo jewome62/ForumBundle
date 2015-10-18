@@ -1,6 +1,6 @@
 <?php
 
-namespace Herzult\ForumBundle\Blamer;
+namespace Herzult\Bundle\ForumBundle\Blamer;
 
 class PostBlamer extends AbstractSecurityBlamer implements BlamerInterface
 {

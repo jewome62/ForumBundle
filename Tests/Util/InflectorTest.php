@@ -1,8 +1,8 @@
 <?php
 
-namespace Herzult\ForumBundle\Tests\Util;
+namespace Herzult\Bundle\ForumBundle\Tests\Util;
 
-use Herzult\ForumBundle\Util\Inflector;
+use Herzult\Bundle\ForumBundle\Util\Inflector;
 
 class InflectorTest extends \PHPUnit_Framework_TestCase
 {

@@ -56,7 +56,7 @@ application kernel:
         return array(
             // ...
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
-            new Herzult\ForumBundle\HerzultForumBundle(),
+            new Herzult\Bundle\ForumBundle\HerzultForumBundle(),
         );
     }
 

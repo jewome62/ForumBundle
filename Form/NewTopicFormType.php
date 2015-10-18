@@ -1,11 +1,11 @@
 <?php
 
-namespace Herzult\ForumBundle\Form;
+namespace Herzult\Bundle\ForumBundle\Form;
 
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
-use Herzult\ForumBundle\Model\CategoryRepositoryInterface;
+use Herzult\Bundle\ForumBundle\Model\CategoryRepositoryInterface;
 
 class NewTopicFormType extends AbstractType
 {
